@@ -1,3 +1,14 @@
-number = int(input("Enter the number whose multiplication table you want :"))
-for i in range(1,11):
-    print(f'{number} x {i} = {number * i}')
+#include <iostream>
+using namespace std;
+int main()
+{
+    int val;
+    cout << "Enter the number " << endl;
+    cin >> val;
+
+    for (int i = 1; i <= 10; i++)
+    {
+        cout << val << " X " << i << " = " << val * i << endl;
+    }
+    return 0;
+}
